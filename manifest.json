@@ -1,0 +1,9 @@
+{
+  "name": "Elite Portföy",
+  "short_name": "Portföy",
+  "start_url": "/elite-portfoy/",
+  "scope": "/elite-portfoy/",
+  "display": "standalone",
+  "background_color": "#030508",
+  "theme_color": "#00ff9d"
+}
