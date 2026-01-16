@@ -1,3 +1,9 @@
+self.addEventListener('fetch', event => {
+  if (event.request.url.includes('docs.google.com')) {
+    return;
+  }
+});
+
 const CACHE_NAME = "elite-v1";
 const FILES_TO_CACHE = [
   "./",
